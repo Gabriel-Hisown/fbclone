@@ -1,0 +1,164 @@
+/* Center everything on the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Left Section */
+.left-section {
+    width: 40%;
+    margin-left: 10%;
+    margin-right: auto;
+    padding-left: 20px;
+    /* background-color: yellow;    */
+    margin-top: -10%;
+    
+}
+
+/* the blue facebook writeup at the left  */
+.facebook-logo {
+    font-size: 60px;
+    color: rgb(2, 125, 226);   
+    margin-top: 15%;
+}
+
+/* tagline now */
+.tagline {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: -5%;
+
+}
+
+/* Right Side (Red Background) */
+.right-side {
+    /* padding: -200%; */
+    width: 30%; /* Make it take the remaining space */
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column; /* Stack elements inside */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    padding: 40px;
+    height: 80%; /* Ensure full height */
+    position: relative;
+    left:-15%
+
+}
+
+/* Login Session */
+.login-session {
+    background-color: white;
+    padding: 40px;
+    padding-top: 7px;
+    padding-bottom: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50%;
+    border-radius: 10px;
+    position: relative;
+    top:-2%
+
+}
+
+/* Last Writeup */
+.last-writeup {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    width: 80%;
+}
+
+.login-form input:focus {
+    border: 1px solid rgb(77, 185, 228);
+    outline: none;
+}
+
+.login-form input {
+    width: 105%; /* Increase width */
+    height: 18px; /* Increase height */
+    padding: 15px; /* Adjust padding */
+    font-size: 16px; /* Keep font size unchanged */
+    margin-left: -8%;
+    border-radius: 7px;
+    border-color: grey;
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Reduce opacity manually */
+    margin-top: 4%;
+}
+
+
+.login-form button {
+    width: 116%;
+    margin-left: -8%;
+    margin-top: 4%;
+    height:29%;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(41, 105, 243);
+    color: #f0f2f5;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.login-form button:hover {
+background-color: rgb(59, 59, 250);
+}
+
+.forgotten-password {
+    margin-bottom: 10px !important;
+    margin-top: 13%;
+    font-size: 14px;
+    text-decoration: none;
+    color: blue;
+}
+
+.forgotten-password:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+hr {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    width: 114%;
+    margin-left: -7%;
+}
+
+.create-new-account {
+    height: 500px;
+    width: 60%;
+    background-color: rgb(34, 184, 34);
+    position: relative;
+    top: 20px; /* Moves it down */
+    font-size: 16px;
+    color: white;
+    margin-bottom: -5%;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 4.5%;
+    border: none
+}
+
+.create-new-account:hover {
+background-color: green;
+}
+
+.last-writeup{
+    color: black;
+}
+
+.celeb-page {
+    font-weight: bold;  
+}
+
+.celeb-page:hover{
+    text-decoration: underline;
+}
